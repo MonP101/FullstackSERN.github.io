@@ -1,1 +1,0 @@
-# FullstackSERN.github.io

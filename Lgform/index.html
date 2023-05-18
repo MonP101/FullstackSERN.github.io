@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="form">
+                <form action="/post-crud" method="post">
+                    <div class="title">
+                        <h4>Register</h4>
+                    </div>
+                    <div class="form-input">
+                        <div class="input-type input-email">
+                            <input name="email" type="text" class="" id="inputEmail4" placeholder="Email">
+                        </div>
+                        <div class="input-type input-password">
+                            <input name="password" type="password" class="" id="inputPassword4" placeholder="Password">
+                        </div>
+                        <div class="input-type input-name">
+                            <input name="firstName" type="text" class="input_name" id="inputFullname"
+                                placeholder="First Name">
+                            <input name="lastName" type="text" class="input_name" id="inputFullname"
+                                placeholder="Last Name">
+                        </div>
+                        <div class="input-type input-address">
+                            <input name="address" type="text" class="" id="inputAddress" placeholder="Address">
+                        </div>
+                        <div class="input-type input-phone">
+                            <input name="phonenumber" type="text" class="" id="inputPhonenumber"
+                                placeholder="Phone number">
+                        </div>
+                        <div class="input-type input-gender_role">
+                            <select name="gender" class="" id="inputGender">
+                                <option value="1">Male</option>
+                                <option value="0">Female</option>
+                            </select>
+                            <select name="roleId" class="" id="inputRole">
+                                <option value="1">Admin</option>
+                                <option value="2">Doctor</option>
+                                <option value="3">Patient</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" name="" id="">
+                        <label for="checkBox">I accept <span>Terms of Use</span></label>
+                    </div>
+                    <button type="submit" class="">Register</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
